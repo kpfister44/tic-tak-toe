@@ -1,2 +1,2 @@
-# tic-tak-toe
-A tik-tac-toe game that can be played on your browser
+# tic-tac-toe
+A tic-tac-toe game that can be played on your browser
