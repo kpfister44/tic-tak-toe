@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <h1>TIC-TAC-TOE</h1>
+        </div>
+        <div class="gameboard-container">
+            <!-- pregame display -->
+            <div class="pregame-display">
+                <form class="form">
+                    <div class="title">Let's Get Started</div>
+                    <div class="subtitle">What are your names?</div>
+                    <div class="input-container ic1">
+                      <input id="playeronename" class="input" type="text" name="playeronename" placeholder=" " />
+                      <div class="cut"></div>
+                      <label for="playeronename" class="placeholder">Player 1 name</label>
+                    </div>
+                    <div class="input-container ic2">
+                      <input id="playertwoname" class="input" type="text" name="playertwoname" placeholder=" " />
+                      <div class="cut"></div>
+                      <label for="playertwoname" class="placeholder">Player 2 name</label>
+                    </div>
+                    <button type="submit" value="submit" class="submit">Lets Play</button>
+                </form>
+            </div>
+            <!-- game display -->
+            <div class="gameboard inactive">
+                <div class="gameboard-board-container">
+                    <p class="player-turn-display"></p>
+                    <div class="gameboard-board">
+                        <div class="gameboard-tile" id="0"></div>
+                        <div class="gameboard-tile top-middle" id="1"></div>
+                        <div class="gameboard-tile" id="2"></div>
+                        <div class="gameboard-tile left-middle" id="3"></div>
+                        <div class="gameboard-tile middle" id="4"></div>
+                        <div class="gameboard-tile right-middle" id="5"></div>
+                        <div class="gameboard-tile" id="6"></div>
+                        <div class="gameboard-tile bottom-middle" id="7"></div>
+                        <div class="gameboard-tile" id="8"></div>
+                    </div>
+                </div>
+                <div class="gameboard-footer">
+                    <button class="restart-button">Restart</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>footer</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
